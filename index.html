@@ -522,6 +522,12 @@
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
-
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "3bada04b-762b-4837-87b5-da210dc2a2a2",
+            apiHost: "https://flowiseai-has.onrender.com",
+        })
+    </script>
 </body>
 </html>
